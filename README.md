@@ -131,7 +131,12 @@ query {
 
 - Compile output: `compiling 2 circuits` from `compact compile` (see `npm run compile:windows`)
   and the generated `managed/tendershield/{compiler,contract,keys,zkir}` tree.
+
+  ![compact compile output](screenshots/compile.png)
+
 - Local deployment: `npm run test:local` prints the contract address from `tests/deploy.test.ts`.
+
+  ![deployed contract address](screenshots/deploy.png)
 
 ## Troubleshooting (Windows)
 
